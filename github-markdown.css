@@ -64,6 +64,7 @@ body h6:hover .anchor .octicon-link:before {
   font-size: 16px;
   line-height: 1.5;
   word-wrap: break-word;
+  background-color: #ffffff;
 }
 
 body details {
