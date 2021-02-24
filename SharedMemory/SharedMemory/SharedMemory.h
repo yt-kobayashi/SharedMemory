@@ -7,6 +7,17 @@
 
 ref class SharedMemory
 {
+public:
+	/// <summary>
+	/// Default constructor
+	/// </summary>
+	SharedMemory();
+
+	/// <summary>
+	/// Default destructor
+	/// </summary>
+	~SharedMemory();
+
 private:
 	// Variable
 	HANDLE mappingFileHandle;					// Handle of mapping file.
